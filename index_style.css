@@ -1,0 +1,49 @@
+#logo{
+    padding-left: 30px;
+    padding-top: 5px;
+    max-height: 200px;
+    max-width: 200px;
+  
+}
+#logo_text{
+    position: absolute;
+    left: 200px;
+    top: 8px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.8em;
+    color: white;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    height: 160px;
+}
+.navbar a{
+  text-align: center;
+  padding: 70px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  float: right;
+  font-family: garamond;
+  color: white;
+}
+
+.navbar a:hover{
+    background-color: black;
+}
+#text{
+    font-size: 50px;
+    color: black;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 400px;
+    right: 550px;
+    font-family: garamond;
+}
+#footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
