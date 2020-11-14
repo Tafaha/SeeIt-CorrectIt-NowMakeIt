@@ -1,0 +1,238 @@
+body{
+  background-color: #EBECF0;
+}
+
+#logo{
+    padding-left: 30px;
+    padding-top: 5px;
+    max-height: 200px;
+    max-width: 200px;
+    overflow: hidden;
+}
+#logo_text{
+    position: absolute;
+    left: 200px;
+    top: 8px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.8em;
+    color: white;
+}
+
+#degrees_title{
+  margin: auto;
+  width: 10%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+h2{
+  margin: auto;
+  width: 10%;
+  padding-top: 50px;
+}
+
+a:visited{
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+.digital_arts{
+  width: 50%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.digital_arts td, .digital_arts th {
+  width: 500px;
+  border: 1px solid;
+  width: 500px;
+  padding: 8px;
+  background-color: #F5F5F5;
+  color: black;
+  text-align: center;
+}
+.digital_arts{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.digital_arts th {
+  text-align: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  background-color: #1E90FF;
+  color: black;
+}
+
+.creation_simulation{
+  width: 50%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.creation_simulation td, .creation_simulation th {
+  width: 500px;
+  border: 1px solid;
+  width: 500px;
+  padding: 8px;
+  background-color: #F5F5F5;
+  color: black;
+  text-align: center;
+}
+.creation_simulation{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.creation_simulation th {
+  text-align: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  background-color: yellow;
+  color: black;
+}
+
+.software_engineering{
+  width: 50%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.software_engineering td, .software_engineering th {
+  width: 500px;
+  border: 1px solid;
+  width: 500px;
+  padding: 8px;
+  background-color: #F5F5F5;
+  color: black;
+  text-align: center;
+}
+.software_engineering{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.software_engineering th {
+  text-align: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  background-color: #c8f902;
+  color: black;
+}
+
+.cyber_security{
+  width: 50%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.cyber_security td, .cyber_security th {
+  width: 500px;
+  border: 1px solid;
+  width: 500px;
+  padding: 8px;
+  background-color: #F5F5F5;
+  color: black;
+  text-align: center;
+}
+.cyber_security{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.cyber_security th {
+  text-align: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  background-color: #DBF3FA;
+  color: black;
+}
+
+.game_studies{
+  width: 50%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.game_studies td, .game_studies th {
+  width: 500px;
+  border: 1px solid;
+  width: 500px;
+  padding: 8px;
+  background-color: #F5F5F5;
+  color: black;
+  text-align: center;
+}
+.game_studies{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.game_studies th {
+  text-align: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  background-color: #F85C4D;
+  color: black;
+}
+
+.business_innovation{
+  width: 50%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.business_innovation td, .business_innovation th {
+  width: 500px;
+  border: 1px solid;
+  width: 500px;
+  padding: 8px;
+  background-color: #F5F5F5;
+  color: black;
+  text-align: center;
+}
+.business_innovation{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.business_innovation th {
+  text-align: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  background-color: #f4dffe;
+  color: black;
+}
+
+.majors table{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.majors tr:hover td{
+  background-color: #cecece;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    height: 160px;
+}
+.navbar a{
+  text-align: center;
+  padding: 70px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  float: right;
+  font-family: garamond;
+  color: white;
+}
+
+.navbar a:hover{
+    background-color: black;
+}
+#footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}

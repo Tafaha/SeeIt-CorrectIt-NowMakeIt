@@ -1,0 +1,106 @@
+body{
+  background-color: #EBECF0;
+}
+
+#logo{
+    padding-left: 30px;
+    padding-top: 5px;
+    max-height: 200px;
+    max-width: 200px;
+    overflow: hidden;
+}
+#logo_text{
+    position: absolute;
+    left: 200px;
+    top: 8px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.8em;
+    color: white;
+}
+
+.bilde1{
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.degree{
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.degree p{
+  font-size: 20px;
+}
+
+.degree h2, h3{
+  border-bottom:5px solid #1E90FF;
+}
+
+#apply{
+  margin-top: 20px;
+}
+
+#degree_description{
+  font-size: 20px;
+}
+
+.application_container{
+  border: 1px solid white;
+  width: 40%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.application_container div{
+  width: 50%;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.application_container input, button{
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid;
+  height: 30px;
+}
+
+button:hover{
+  background-color: green;
+  color: white;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    height: 160px;
+}
+.navbar a{
+  text-align: center;
+  padding: 70px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  float: right;
+  font-family: garamond;
+  color: white;
+}
+
+.navbar a:hover{
+    background-color: black;
+}
+#footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
