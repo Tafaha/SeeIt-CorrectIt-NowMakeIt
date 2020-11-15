@@ -230,9 +230,179 @@ a:link {
 .navbar a:hover{
     background-color: black;
 }
+.menu{
+  top: 30px;
+  left: 13px;
+  margin-top: 5px;
+  position: absolute;
+	display: none;
+}
+
+.menu div{
+  border: 1px solid white;
+  width: 30px;
+  padding: 1px;
+  margin: 5px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.menu:hover{
+  background-color: #969696;
+}
+
+#x-button{
+  left: 10px;
+  position: absolute;
+  font-family: "Arial";
+  color: white;
+}
+
+
+ul{
+  list-style-type: none;
+  height: 100%;
+}
+
+#menu_nav{
+  top: 0px;
+  position: absolute;
+  z-index: 2;
+  border: 1px solid white);
+  height: 780px;
+  font-size: 25px;
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  display: none;
+  position: fixed;
+}
+
+#menu_nav li{
+  text-align: center;
+  padding: 50px;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+#menu_nav li:hover{
+  background-color: gray;
+}
+
 #footer{
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1px;
+}
+
+@media only screen and (max-width: 794px){
+  .navbar a{
+    display: none;
+  }
+
+  #logo{
+    margin-left: 200px;
+  }
+
+  #logo_text{
+    margin-left: 200px;
+  }
+
+  .menu{
+    display: block;
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .navbar a{
+    display: none;
+  }
+
+  #logo{
+    margin-left: 150px;
+  }
+
+  #logo_text{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 20px;
+  }
+
+  .menu{
+    display: block;
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .navbar a{
+    display: none;
+  }
+
+  #logo{
+    margin-left: 120px;
+  }
+
+  #logo_text{
+    margin-top: 60px;
+    margin-left: 120px;
+    font-size: 10px;
+  }
+
+  .menu{
+    display: block;
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .navbar a{
+    display: none;
+  }
+
+  #logo{
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 100px;
+    height: auto;
+  }
+
+  #logo_text{
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 10px;
+  }
+
+  .menu{
+    display: block;
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .navbar a{
+    display: none;
+  }
+
+  #logo{
+    margin-left: 110px;
+    margin-top: 50px;
+    width: 70px;
+    height: auto;
+  }
+
+  #logo_text{
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 10px;
+  }
+
+  .menu{
+    display: block;
+    padding: 50px;
+  }
 }
